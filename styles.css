@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: var(--tg-theme-bg-color);
+}
+
+.card {
+	background-color: var(--tg-theme-secondary-bg-color);
+	width: 200px;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.card-img {
+	border-radius: 11px;
+	max-height: 200;
+	max-width: 200;
+}
+
+.card-title {
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.card-sub {
+	font-size: 12px;
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+.btn-keeper {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.btn {
+	background-color: var(--tg-theme-secondary-bg-color);
+	padding: 7px 12px;
+	text-decoration: none;
+	color: var(--tg-theme-button-text-color);
+}
