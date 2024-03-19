@@ -1,10 +1,10 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: var(--tg-theme-bg-color);
+	background-color: var(--tg-theme-secondary-bg-color);
 }
 
 .card {
-	background-color: var(--tg-theme-secondary-bg-color);
+	background-color: var(--tg-theme-bg-color);
 	width: 200px;
 	border-radius: 20px;
 	padding: 20px;
@@ -20,12 +20,14 @@ body {
 	margin-top: 20px;
 	font-size: 14px;
 	font-weight: 500;
+	color: var(--tg-theme-text-color);
 }
 
 .card-sub {
 	font-size: 12px;
 	font-weight: 300;
 	margin-top: 20px;
+	color: var(--tg-theme-hint-color);
 }
 
 .btn-keeper {
@@ -34,7 +36,7 @@ body {
 }
 
 .btn {
-	background-color: var(--tg-theme-secondary-bg-color);
+	background-color: var(--tg-theme-button-color);
 	padding: 7px 12px;
 	text-decoration: none;
 	color: var(--tg-theme-button-text-color);
