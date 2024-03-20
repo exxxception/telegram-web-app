@@ -11,12 +11,12 @@ document.getElementById("createCardBtn").addEventListener("click", function() {
     card.appendChild(image);
 
     // Добавляем цену товара
-    var price = document.createElement("p");
+    var price = document.createElement("h2");
     price.textContent = "999 ₽";
     card.appendChild(price);
     
     // Добавляем название товара
-    var title = document.createElement("h2");
+    var title = document.createElement("p");
     title.textContent = "POP TRAIDING COMPANY";
     card.appendChild(title);
 
