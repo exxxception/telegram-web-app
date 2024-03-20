@@ -1,23 +1,30 @@
 document.getElementById("createCardBtn").addEventListener("click", function() {
-    // Создаем элементы для карточки товара
     var cardContainer = document.getElementById("cardContainer");
+    
     var card = document.createElement("div");
     card.className = "card";
 
-    var title = document.createElement("h2");
-    title.textContent = "Название товара";
+    // Добавляем изображение
+    var image = document.createElement("img");
+    image.src = "bicycle.jpg"; // Путь к изображению товара
+    image.alt = "Изображение товара";
+    card.appendChild(image);
 
-    var description = document.createElement("p");
-    description.textContent = "Описание товара";
-
+    // Добавляем цену товара
     var price = document.createElement("p");
-    price.textContent = "Цена: $100";
-
-    // Добавляем элементы в карточку товара
-    card.appendChild(title);
-    card.appendChild(description);
+    price.textContent = "999 ₽";
     card.appendChild(price);
+    
+    // Добавляем название товара
+    var title = document.createElement("h2");
+    title.textContent = "POP TRAIDING COMPANY";
+    card.appendChild(title);
 
-    // Добавляем карточку товара в контейнер
+    // Добавляем кнопку "Подробнее"
+    var detailsBtn = document.createElement("button");
+    detailsBtn.className = "details-btn";
+    detailsBtn.textContent = "Подробнее";
+    card.appendChild(detailsBtn);
+
     cardContainer.appendChild(card);
 });
